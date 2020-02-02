@@ -1,0 +1,12 @@
+Testsuite: CalculatorTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+
+Testcase: evaluatesExpression took 0.002 sec
+	FAILED
+expected:<6> but was:<-6>
+junit.framework.AssertionFailedError: expected:<6> but was:<-6>
+	at CalculatorTest.evaluatesExpression(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
